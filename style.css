@@ -1,0 +1,89 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.container{
+margin:0 auto;
+max-width: 1200px;
+}
+
+.container header h1{
+padding: 10px;
+}
+
+.header{
+margin-top: 20px;
+background-color: rgb(44 41 41);
+height: 50px;
+}
+
+ul{  
+display: flex;
+justify-content: space-between;
+padding-left: 10px;
+padding-right: 10px;
+list-style: none;
+}
+li{
+margin-top: 10px;
+color: rgb(41, 36, 27);
+}
+a{
+font-size: 20px;
+color: aliceblue;
+text-decoration: none;
+display: block;  
+padding: 5px;
+}
+a:hover{
+font-size: 25px;
+color: black;
+background: yellowgreen
+}
+
+.mainclass{
+display: flex;
+position: relative;
+
+}
+
+.para{
+width: 60%;
+margin-top: 20px;
+}
+.parabox h2{
+padding-bottom: 20px;
+}
+
+.image{
+
+width: 150px;
+margin-right: 20px;
+float: left;
+}
+p{
+text-align: justify;
+margin-bottom: 10px;
+}
+.images{
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;   
+}
+.images img{
+width: 40%;
+margin: 3px;
+
+
+}
+.sideview{
+height: 600px;
+margin-left: 70px;
+margin-top: 20px;
+text-align: center;
+width: 30%;
+position: sticky;
+top: 0;
+right: 0;
+}
